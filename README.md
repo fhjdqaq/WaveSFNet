@@ -91,3 +91,18 @@ python tools/test.py -d mmnist -c configs/mmnist/WaveSF.py --ex_name mmnist_wave
 This project is built on top of the [OpenSTL](https://github.com/chengtan9907/OpenSTL) framework in terms of code structure, training pipeline, and data preparation. We sincerely thank the authors and contributors of OpenSTL for their great work.
 
 ---
+
+## 6. Citation
+
+If you find our work helpful or inspiring for your research, please consider citing our paper:
+
+```bibtex
+@misc{cai2026wavesfnet,
+      title={WaveSFNet: A Wavelet-Based Codec and Spatial--Frequency Dual-Domain Gating Network for Spatiotemporal Prediction}, 
+      author={Xinyong Cai and Runming Xie and Hu Chen and Yuankai Wu},
+      year={2026},
+      eprint={2603.23284},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.23284}, 
+}
